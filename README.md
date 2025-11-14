@@ -184,11 +184,3 @@ npm run lint      # Executa ESLint
 ## 📄 Licença
 
 Este projeto foi desenvolvido como parte de um desafio técnico da **AutoU**.
-
----
-
-## 🙏 Agradecimentos
-
-- **AutoU** pela oportunidade do desafio
-- Comunidade React e Tailwind CSS
-- Vercel pela hospedagem gratuita
