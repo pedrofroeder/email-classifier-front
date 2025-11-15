@@ -1,4 +1,4 @@
-export function HelpButton({ onClick }) {
+function HelpButton({ onClick }) {
   return (
     <button
       onClick={onClick}
@@ -21,3 +21,5 @@ export function HelpButton({ onClick }) {
     </button>
   );
 }
+
+export default HelpButton;

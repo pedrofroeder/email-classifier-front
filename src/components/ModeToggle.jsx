@@ -1,4 +1,4 @@
-export function ModeToggle({ inputMode, onModeChange }) {
+function ModeToggle({ inputMode, onModeChange }) {
   return (
     <div className="flex border-b border-slate-200">
       <button
@@ -54,3 +54,5 @@ export function ModeToggle({ inputMode, onModeChange }) {
     </div>
   );
 }
+
+export default ModeToggle;

@@ -8,7 +8,7 @@ import ResultCard from "../components/ResultCard";
 import HelpButton from "../components/HelpButton";
 import HelpModal from "../components/HelpModal";
 
-export function EmailClassifier() {
+function EmailClassifier() {
   const [inputMode, setInputMode] = useState("text");
   const [emailText, setEmailText] = useState("");
   const [selectedFile, setSelectedFile] = useState(null);
@@ -182,3 +182,5 @@ export function EmailClassifier() {
     </div>
   );
 }
+
+export default EmailClassifier;

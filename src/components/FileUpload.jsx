@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function FileUpload({ selectedFile, onFileSelect, fileInputRef }) {
+function FileUpload({ selectedFile, onFileSelect, fileInputRef }) {
   const [isDragging, setIsDragging] = useState(false);
 
   const handleDragEnter = (e) => {
@@ -118,4 +118,6 @@ export function FileUpload({ selectedFile, onFileSelect, fileInputRef }) {
     </div>
   );
 }
+
+export default FileUpload;
 

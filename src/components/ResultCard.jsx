@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import CategoryBadge from "./CategoryBadge";
 import CopyButton from "./CopyButton";
 
-export function ResultCard({ result, onClear }) {
+function ResultCard({ result, onClear }) {
   const resultRef = useRef(null);
 
   useEffect(() => {
@@ -72,3 +72,5 @@ export function ResultCard({ result, onClear }) {
     </div>
   );
 }
+
+export default ResultCard;

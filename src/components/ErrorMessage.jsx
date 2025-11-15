@@ -1,4 +1,4 @@
-export function ErrorMessage({ message }) {
+function ErrorMessage({ message }) {
   if (!message) return null;
 
   return (
@@ -20,3 +20,5 @@ export function ErrorMessage({ message }) {
     </div>
   );
 }
+
+export default ErrorMessage;

@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-export function CopyButton({ text }) {
+function CopyButton({ text }) {
   const [copied, setCopied] = useState(false);
   const timeoutRef = useRef(null);
 
@@ -58,3 +58,5 @@ export function CopyButton({ text }) {
     </button>
   );
 }
+
+export default CopyButton;

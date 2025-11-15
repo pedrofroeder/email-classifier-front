@@ -1,4 +1,4 @@
-export function ClassifyButton({ loading, onClick }) {
+function ClassifyButton({ loading, onClick }) {
   return (
     <button
       onClick={onClick}
@@ -49,3 +49,5 @@ export function ClassifyButton({ loading, onClick }) {
     </button>
   );
 }
+
+export default ClassifyButton;

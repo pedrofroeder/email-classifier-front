@@ -1,4 +1,4 @@
-export function HelpModal({ isOpen, onClose }) {
+function HelpModal({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return (
@@ -102,3 +102,5 @@ export function HelpModal({ isOpen, onClose }) {
     </div>
   );
 }
+
+export default HelpModal;

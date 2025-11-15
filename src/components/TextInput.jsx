@@ -1,4 +1,4 @@
-export function TextInput({ value, onChange, onKeyDown }) {
+function TextInput({ value, onChange, onKeyDown }) {
   return (
     <div>
       <label className="block text-sm sm:text-sm font-medium text-slate-700 mb-2 sm:mb-2">
@@ -22,4 +22,6 @@ export function TextInput({ value, onChange, onKeyDown }) {
     </div>
   );
 }
+
+export default TextInput;
 

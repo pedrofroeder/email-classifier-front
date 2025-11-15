@@ -1,4 +1,4 @@
-export function CategoryBadge({ categoria }) {
+function CategoryBadge({ categoria }) {
   const isProdutivo = categoria === "Produtivo";
 
   return (
@@ -42,3 +42,5 @@ export function CategoryBadge({ categoria }) {
     </div>
   );
 }
+
+export default CategoryBadge;
